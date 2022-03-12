@@ -1,14 +1,23 @@
 <html>
+  <head>
+    <title> Formulário </title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="css/estiloie.css">
+    <![endif]-->
 
-<head>
-<title>elementos do formulario</title>
-</head>
-
-<p>controle infput</>
-
-<form name="cadastro"
- nome: <input type="text" name="nome" size"33" placeholeder="digite seu nome">
-endereço: <input type="text" name="endereço" size"33" 
-
-<input type="submit" value="enviar"
->
+  </head>
+<body>
+  <div id="area">
+    <form id="formulario" autocomplete="off">
+      <fieldset>
+        <legend>Formulário</legend>
+        <label>Nome:</label><input class="campo_nome" type="text"><br>
+        <label>Email:</label><input class="campo_email" type="password"><br>
+        <label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
+        <input class="btn_submit" type="submit" value="Enviar">
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
