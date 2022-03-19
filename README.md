@@ -1,23 +1,27 @@
 <html>
-  <head>
-    <title> Formulário </title>
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <!--[if IE]>
-    <link rel="stylesheet" type="text/css" href="css/estiloie.css">
-    <![endif]-->
+  
 
-  </head>
-<body>
-  <div id="area">
-    <form id="formulario" autocomplete="off">
-      <fieldset>
-        <legend>Formulário</legend>
-        <label>Nome:</label><input class="campo_nome" type="text"><br>
-        <label>Email:</label><input class="campo_email" type="password"><br>
-        <label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
-        <input class="btn_submit" type="submit" value="Enviar">
-      </fieldset>
-    </form>
-  </div>
+<h3> HTML Form</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="usa">Brasil</option>
+      <option value="usa">Paraguai</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
 </body>
-</html>
