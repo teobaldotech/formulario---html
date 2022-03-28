@@ -15,10 +15,8 @@
 {
   
 
-      background-image:linear-gradient(170deg,rgb(151, 125, 175),#092c3f );
-      color:aquamarine(6, 37, 35);
-      border-radius: 30%;
-
+      background-image: linear-gradient( to right, rgb(204, 0, 255), green, yellow, blue ); }
+      
     }
 
     
