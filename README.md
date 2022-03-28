@@ -1,27 +1,47 @@
 <html>
   
+<html>
+  <head>
+    <title>  g r a d i e n t e </title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="css/estiloie.css">
+    <![endif]-->
 
-<h3> HTML Form</h3>
-
-<div>
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-      <option value="usa">Brasil</option>
-      <option value="usa">Paraguai</option>
-    </select>
+  </head>
+  <h1>  página gradiente</h1>
+  <style>
+    body
+{
   
-    <input type="submit" value="Submit">
-  </form>
-</div>
 
+      background-image:linear-gradient(170deg,rgb(151, 125, 175),#092c3f );
+      color:aquamarine(6, 37, 35);
+      border-radius: 30%;
+
+    }
+
+    
+  </style>
+<body>
+
+
+  
+  <div id="area">
+    <form id="F o r m u l á r i o" autocomplete="off">
+      <fieldset>
+        <border-radius:20>
+        <legend class="fist" >Formulários</legend>
+        <label>Nome:</label><input class="campo_nome" type="text"><br>
+        <label>Email:</label><input class="campo_email" type="password"><br>
+        
+        
+      </fieldset>
+    </form>
+  </div>
+
+  
 </body>
+</html> 
+
+
